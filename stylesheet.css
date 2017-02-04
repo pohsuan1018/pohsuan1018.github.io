@@ -13,13 +13,6 @@ body {
 	padding: 90px;
 }
 
-@media (max-width: 970px) {
-	#site {
-		margin: 0 auto;
-		padding: 20px;
-	}
-}
-
 #canvas {
 	padding: 0;
 	max-width: 800px;
@@ -143,4 +136,11 @@ p {
 
 .mail a:hover {
 	color: #c8c8c8;
+}
+
+@media (max-width: 970px) {
+	#site {
+		margin: 0 auto;
+		padding: 20px;
+	}
 }
