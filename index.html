@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YO</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="img/tab.png" type="image/png" >
+	<title>Porsche Tsai</title>
 </head>
 <body>
-	YA
+	<div id="site">
+		<div id="canvas">
+			<div id="headerWrapper">
+				<h1>Porsche Tsai</h1>
+				<!--
+				<div class="nav">
+					<ul>
+						<li>首頁</li>
+						<li>文章</li>
+						<li>訂閱</li>
+						<li>找我</li>
+					</ul>
+				</div>-->
+			</div>
+
+			<div id="pageWrapper">
+				<div class="article">
+					<h2>Uber says goodbye</h2>
+					<h3>February 02, 2017</h3>
+					<img src="img/uber.jpg">
+					<div class="quote">
+					甲：「聽說 Ubike 要歇業了。」<br>
+					乙：「為什麼？」<br>
+					甲：「因為被罰了11億啊！」<br>
+					乙：「是 Uber 吧...」</div>
+					<p>Uber Taiwan 今日發出<a href="https://newsroom.uber.com/taiwan/pressing-pause-in-taiwan-chi/">新聞稿</a>，宣布2月10日將暫停在台灣的服務。<br><br>
+					Uber 的服務確實在各國都備受爭議，被討論的層面不單只是瓜分了計程車市場，更涉及了政策、安全、民族主義、陰謀論等，彷彿總統大選前夕的各說各話、毫無共識。<br><br>
+					Uber 的正當性仍待驗證，但不可否認的是能在極度飽和的運輸業中激發如此大的波瀾，甚至轉變了社會的價值觀，在產業中佔有一席之地，代表它確實有優於傳統運輸業的特色。或許在制度面上 Uber 不若法定的運輸業完善，但在實質的體驗層面上，這隻突起的異軍讓運輸前輩們毫無招架之力，因此身為一個使用者，我其實樂於活在 Uber 勾勒出的大同世界中。<br><br>
+					不論 Uber 是否繼續在台灣提供服務，希望這個事件不會被傳統運輸業視為光榮的勝利。既然可畏的競爭對手已暫時放棄挑戰，是時候借力使力，學取 Uber 的優點，否則就算沒有下個競爭者的挑戰，不進則退，遲早有一天會被自己絆倒摔落谷底。
+					</p>
+				</div>
+				<div class="article">	
+					<h2>Touch Bar 能幫你在考場上多得幾分？</h2>
+					<h3>February 01, 2017</h3>
+					<img src="img/touchBar.jpg">
+					<p>美國的律師資格考試即將在2月底展開，意外讓 Touch Bar 成為熱門的討論話題。<br><br>
+					Apple 於2016年10月發布新一代配<a href="http://www.apple.com/macbook-pro/">有 Touch Bar 的 Mac Book Pro</a>，以觸控面板的虛擬按鍵取代傳統的上排功能鍵。讓你在各種使用情境都能有最合適的功能選項。同時，Apple 希望將手機上的打字習慣移植到電腦，其中包含了 Predictive Text 的功能，能依照使用習慣產生建議的選字，也就是這次爭議所在。<br><br>
+					基於 Predictive Text 可能無法完整呈現考生的原意，以及考量到工具使用的公平性，有些州如 North Carolina 規定考生必須關閉 Touch Bar 的功能，其它如 New York 則禁止考生使用配有 Touch Bar 的機種。<br><br>
+					其實 Predictive Text 還不成熟，我想目前對考試的影響相當有限，但隨著 Natural Language Processing 的發展，不難想像在未來會對社會的價值觀和體制造成衝擊，會有這些未雨綢繆的政策也只是剛剛好而已。<br><br>
+					若你買了有 Touch Bar 的MBP而且覺得無法駕馭它的話，網路考試平台 ExamSoft 有教你關掉 Touch Bar 的<a href="http://support.examsoft.com/h/i/323482095-disabling-the-touch-bar-on-macbook-pro" id="link">完整教學</a>。或者給自己省些麻煩，買沒有 Touch Bar 機種吧，畢竟它又貴又不能幫你多得幾分。</p>
+				</div>
+			</div>
+
+			<div id="footerWrapper">
+				<div class="mail">
+					<p>© Porsche Tsai</p>
+					<a href="mailto:pohsuan1018tpe@gmail.com"><img src="img/mail.png" >&nbsp;Mail Me</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-91319881-1', 'auto');
+		ga('send', 'pageview');
+
+		$("#link").click(function(){
+			ga('send', {
+				hitType: 'event', 
+				eventCategory: 'index', 
+				eventAction: 'click', 
+				eventLabel: 'link',
+			});
+		})
+	</script>
 </body>
 </html>
