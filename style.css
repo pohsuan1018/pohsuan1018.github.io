@@ -6,7 +6,6 @@ h1, h2, h3, p, .nav, .mail, .quote{
 
 body {
 	margin: 0;
-	-webkit-text-size-adjust: 100%;
 }
 
 #site {
@@ -80,6 +79,8 @@ p {
 	margin: 0;
 	padding-top: 15px;
 	padding-bottom: 50px;
+	-webkit-text-size-adjust: none;
+
 }
 
 #pageWrapper a{
